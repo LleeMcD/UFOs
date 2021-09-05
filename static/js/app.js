@@ -1,57 +1,57 @@
 // from data.js
 const tableData = data;
 
-/ get table references
+// get table references
 var tbody = d3.select("tbody");
 
 function buildTable(data) {
-// First, clear out any existing data
-tbody.html("");
+  // First, clear out any existing data
+  tbody.html("");
 
-// Next, loop through each object in the data
-// and append a row and cells for each value in the row
-data.forEach((dataRow) => {
-// Append a row to the table body
-  let row = tbody.append("tr");
+  // Next, loop through each object in the data
+  // and append a row and cells for each value in the row
+  data.forEach((dataRow) => {
+    // Append a row to the table body
+    let row = tbody.append("tr");
 
     // Loop through each field in the dataRow and add
     // each value as a table cell (td)
-  Object.values(dataRow).forEach((val) => {
-    let cell = row.append("td");
-    cell.text(val);
+    Object.values(dataRow).forEach((val) => {
+      let cell = row.append("td");
+      cell.text(val);
+    });
   });
-});
 }
 
 // 1. Create a variable to keep track of all the filters as an object.
 var filters = {};
 
-// 3. Use this function to update the filters. 
-function upDateFilters(){
+// 3. Create a function that updates the filters. 
 
-// 4a. Save the element that was changed as a variable.
-let changedElement = d3.select(this);
-// 4b. Save the value that was changed as a variable.
-let elementValue = changedElement.property("value");
- console.log(elementValue);
-// 4c. Save the id of the filter that was changed as a variable.
-let filterId = changedElement.attr("id");
-console.log(filterId);
+function updateFilters() {
 
-//5. If a filter value was entered then add that filterId and value
-// to the filters list. Otherwise, clear that filter from the filters object.
-if (elementValue){
-  filters[filterId] = elementValue;
-}
-else {
-  delete filters[filterId];
+  // 4a. Create a variable that saves the element that was changed using d3.select().
+  let changedElement = d3.select(this);
+  // 4b. Save the value that was changed as a variable.
+  let elementValue = changedElement.property("value");
+  // 4c. Save the id of the filter that was changed as a variable.
+  let filterId = changedElement.attr("id");
+
+  // 5. If a filter value was entered then add that filterId and value
+  // to the filters list. Otherwise, clear that filter from the filters object.
+  if (elementValue) {
+    filters[filterId] = elementValue;
+  }
+  else {
+    delete filters[filterId];
+  }
+
+  // 6. Call function to apply all filters and rebuild the table
+  filterTable();
+
+
 }
 
-// 6. Call function to apply all filters and rebuild the table
-filterTable();
- 
-}
-  
 // 7. Create a function that filters the table when data is entered.
 function filterTable() {
 
