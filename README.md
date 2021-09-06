@@ -8,7 +8,7 @@ Summary: In a summary statement, describe one drawback of this new design and tw
 
 ![Orig_UFO_sightings](https://github.com/LleeMcD/UFOs/blob/main/static/images/Orig_UFO_sightings.png)
 ![UFO_sightings_plain](https://github.com/LleeMcD/UFOs/blob/main/static/images/UFO_sightings_plain.png)
-![UFO_sightings_fade-in](https://github.com/LleeMcD/UFOs/blob/main/static/images/Updated_UFO_sightings.png)
+![UFO_sightings_fade-in](https://github.com/LleeMcD/UFOs/blob/main/static/images/UFO_sightings_fade-in.png)
 ![Updated_UFO_sightings](https://github.com/LleeMcD/UFOs/blob/main/static/images/Updated_UFO_sightings.png)
 ![Filter_country](https://github.com/LleeMcD/UFOs/blob/main/static/images/Filter_country.png)
 ![Filter_all](https://github.com/LleeMcD/UFOs/blob/main/static/images/Filter_all.png)
