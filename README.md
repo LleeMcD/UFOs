@@ -30,6 +30,16 @@ Recommendations for improvement include:
 - Update filters to use fuzzy logic for filter functions.
 - Remove default filter values.
 
-## References
--
+## Resources
+- _Learning Web Design 5th Edition 
+  - O'Reilly Media, Copyright May, 2018
+  - Author: Jennifer Niederst Robbins ISBN: 978-1-491-96020-2  
+- W3 Schools Animation: https://www.w3schools.com/css/css3_animations.asp 
+- YouTube 
+  - Today Show clip released April 15, 2021
+    - _Leaked:Pentagon's UFO Investigation:_ https://www.youtube.com/watch?v=SKsLK_Na7iw&t=19s 
+- Course content:
+   -  © 2020 - 2021 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+
+
 
