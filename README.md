@@ -20,7 +20,7 @@ Users can retrieve information about sightings by selecting one or a combination
 ![Filter_all](https://github.com/LleeMcD/UFOs/blob/main/static/images/Filter_all.png)
 
 ## Summary
-The new website has some great functionality but there are some shortcomings:
+The new website has some great functionality but there are shortcomings:
 - The source data is not current.
 - The filter term(s) must be exact to retrieve the results.
 - Default filter values are not necessary.
@@ -31,7 +31,7 @@ Recommendations for improvement include:
 - Remove default filter values.
 
 ## Resources
-- _Learning Web Design 5th Edition 
+- _Learning Web Design_, 5th Edition
   - O'Reilly Media, Copyright May, 2018
     - Author: Jennifer Niederst Robbins ISBN: 978-1-491-96020-2  
 - W3 Schools Animation: https://www.w3schools.com/css/css3_animations.asp 
