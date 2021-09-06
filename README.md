@@ -33,7 +33,7 @@ Recommendations for improvement include:
 ## Resources
 - _Learning Web Design 5th Edition 
   - O'Reilly Media, Copyright May, 2018
-  - Author: Jennifer Niederst Robbins ISBN: 978-1-491-96020-2  
+    - Author: Jennifer Niederst Robbins ISBN: 978-1-491-96020-2  
 - W3 Schools Animation: https://www.w3schools.com/css/css3_animations.asp 
 - YouTube 
   - Today Show clip released April 15, 2021
